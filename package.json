@@ -6,7 +6,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
-    "publish:ci": "lerna publish --yes"
+    "publish:ci": "lerna publish from-package --yes"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
