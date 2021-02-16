@@ -18,6 +18,17 @@ jobs:
           node-version: 12
           registry-url: 'https://npm.pkg.github.com/'
 
+      - name: Cache node modules
+        uses: actions/cache@v1
+        id: cache
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
+
       - name: Ensure access
         run: npm whoami --registry https://npm.pkg.github.com/
         env:
