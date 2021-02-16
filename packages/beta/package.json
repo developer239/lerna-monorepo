@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-npm/beta",
-  "repository": "https://github.com/developer239/lerna-monorepo",
+  "repository": "https://github.com/developer239/monorepo-npm",
   "version": "0.0.0",
   "main": "index.js",
   "publishConfig": {

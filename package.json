@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
+    "version:ci": "lerna version --yes --conventional-commits --create-release github",
     "publish:ci": "lerna publish from-package --yes"
   },
   "devDependencies": {
