@@ -37,6 +37,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
+      - name: Prepare repository
+        run: git checkout "${GITHUB_REF:11}"
+
       - name: Bootstrap lerna
         run: yarn bootstrap
 
