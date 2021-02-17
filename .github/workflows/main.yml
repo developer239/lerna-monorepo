@@ -40,9 +40,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Bootstrap lerna
+        if: contains(github.event.commits[0].message, '[skip-ci]') == false
         run: yarn bootstrap
 
       - name: Bump versions and publish packages
+        if: contains(github.event.commits[0].message, '[skip-ci]') == false
         run: |
           yarn version:ci
           yarn publish:ci
