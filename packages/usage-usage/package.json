@@ -1,10 +1,10 @@
 {
   "name": "@monorepo-npm/usage-usage",
   "repository": "https://github.com/developer239/monorepo-npm",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "dependencies": {
-    "@monorepo-npm/usage": "^0.0.4"
+    "@monorepo-npm/usage": "^0.1.0"
   },
   "publishConfig": {
     "access": "public"
