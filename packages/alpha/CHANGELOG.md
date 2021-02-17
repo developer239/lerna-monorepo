@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/alpha@0.1.0...@monorepo-npm/alpha@0.2.0) (2021-02-17)
+
+
+### Features
+
+* update more alpha ([7ce34b3](https://github.com/developer239/monorepo-npm/commit/7ce34b300d998b0314d3f7d84c9662ed248ac53d))
+
+
+
+
+
 # [0.1.0](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/alpha@0.0.1...@monorepo-npm/alpha@0.1.0) (2021-02-17)
 
 
