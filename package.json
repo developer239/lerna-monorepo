@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "version:ci": "lerna version --yes --conventional-commits --create-release github",
-    "publish:ci": "lerna publish from-package --yes"
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:version": "lerna version",
+    "lerna:publish": "lerna publish from-package"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

@@ -41,13 +41,13 @@ jobs:
 
       - name: Bootstrap lerna
         if: contains(github.event.commits[0].message, '[skip-ci]') == false
-        run: yarn bootstrap
+        run: yarn lerna:bootstrap
 
       - name: Bump versions and publish packages
         if: contains(github.event.commits[0].message, '[skip-ci]') == false
         run: |
-          yarn version:ci
-          yarn publish:ci
+          yarn lerna:version
+          yarn lerna:publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
