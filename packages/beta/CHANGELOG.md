@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/beta@0.1.0...@monorepo-npm/beta@0.2.0) (2021-02-17)
+
+
+### Features
+
+* make beta dependent on others ([3ceff63](https://github.com/developer239/monorepo-npm/commit/3ceff634277ef50253fc6a0aff0771f82efda09e))
+
+
+
+
+
 # [0.1.0](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/beta@0.0.1...@monorepo-npm/beta@0.1.0) (2021-02-17)
 
 
