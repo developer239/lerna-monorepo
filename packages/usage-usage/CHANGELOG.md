@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/usage-usage@0.1.2...@monorepo-npm/usage-usage@0.1.3) (2021-02-17)
+
+**Note:** Version bump only for package @monorepo-npm/usage-usage
+
+
+
+
+
 ## [0.1.2](https://github.com/developer239/monorepo-npm/compare/@monorepo-npm/usage-usage@0.1.1...@monorepo-npm/usage-usage@0.1.2) (2021-02-17)
 
 **Note:** Version bump only for package @monorepo-npm/usage-usage
