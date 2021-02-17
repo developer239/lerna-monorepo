@@ -1,7 +1,7 @@
 {
   "name": "@monorepo-npm/alpha",
   "repository": "https://github.com/developer239/monorepo-npm",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
