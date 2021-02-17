@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: Checkout Code
         if: contains(github.event.commits[0].message, '[skip-ci]') == false
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v1
         with:
@@ -36,9 +38,6 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: Prepare repository
-        run: git checkout "${GITHUB_REF:11}"
 
       - name: Bootstrap lerna
         run: yarn bootstrap
