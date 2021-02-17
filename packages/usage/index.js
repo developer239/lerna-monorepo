@@ -1,4 +1,4 @@
-const alpha = require("@your-username/alpha");
-const beta = require("@your-username/beta");
+const alpha = require("@monorepo-npm/alpha");
+const beta = require("@monorepo-npm/beta");
 
 console.log(alpha + " " + beta);
